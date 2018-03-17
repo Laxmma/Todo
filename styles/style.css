@@ -1,0 +1,22 @@
+.header {
+    border-bottom: 1px solid #d3d3d3;
+    margin-bottom: 15px;
+}
+.add-button {
+    margin-top: 15px;
+}
+#todo-list {
+    padding: 0px;
+    list-style: none;
+}
+#todo-list li{
+    padding: 10px 0px;
+    border-bottom: 1px solid #eaeaea;
+    
+} 
+#todo-list li .done{
+    text-decoration: line-through;
+}
+.padding0 {
+    padding: 0px;
+}
