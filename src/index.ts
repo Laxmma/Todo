@@ -4,6 +4,10 @@ import { Todo } from './todo';
 let listObj: TodoList = new TodoList();
 listObj.getTodos();
 
-let updateTodo = function(todoItem: HTMLInputElement) {
-    //listObj.updateTodo(todoItem);
-}
+$(document).ready(function(){
+    console.log("Jquery is working now");
+
+    $('.checkbox-input').on('click', function(e){
+        $(this).parent('label').toggleClass('done');
+    });
+});
